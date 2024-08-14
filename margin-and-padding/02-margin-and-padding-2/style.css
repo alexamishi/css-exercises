@@ -1,3 +1,17 @@
+
+.card,
+.title,
+.content,
+.button-container,
+button {
+  padding: 8px;
+  background: #e3f4ff;
+}
+
+/*
+Original Selectors Below.
+*/
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -6,22 +20,29 @@ body {
 .card {
   width: 400px;
   background: #fff;
-  margin: 16px auto;
+  
 }
 
 .title {
-  background: #e3f4ff;
+  margin: 0px;
+  font-size: 16px;
 }
 
 .content {
-  background: #e3f4ff;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 16px 8px;
 }
 
 .button-container {
-  background: #e3f4ff;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 8px 24px;
 }
